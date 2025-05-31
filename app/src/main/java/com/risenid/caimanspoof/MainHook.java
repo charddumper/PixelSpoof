@@ -101,6 +101,6 @@ public class MainHook implements IXposedHookLoadPackage {
 
         // ro.build.fingerprint
         XposedHelpers.setStaticObjectField(Build.class, "FINGERPRINT",
-                "google/caiman/caiman:14/AD1A.240530.047.U1/12150698:user/release-keys");
+                "google/caiman_beta/caiman:16/BP31.250502.008/13497110:user/release-keys);
     }
 }
