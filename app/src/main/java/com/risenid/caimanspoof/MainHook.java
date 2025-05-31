@@ -97,10 +97,10 @@ public class MainHook implements IXposedHookLoadPackage {
         XposedHelpers.setStaticObjectField(Build.class, "BOARD", "caiman");
 
         // ro.build.id
-        XposedHelpers.setStaticObjectField(Build.class, "ID", "AD1A.240530.047.U1");
+        XposedHelpers.setStaticObjectField(Build.class, "ID", "BP31.250502.008");
 
         // ro.build.fingerprint
         XposedHelpers.setStaticObjectField(Build.class, "FINGERPRINT",
-                "google/caiman_beta/caiman:16/BP31.250502.008/13497110:user/release-keys);
+                "google/caiman_beta/caiman:16/BP31.250502.008/13497110:user/release-keys");
     }
 }
