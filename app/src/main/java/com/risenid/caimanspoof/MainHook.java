@@ -40,7 +40,7 @@ public class MainHook implements IXposedHookLoadPackage {
         XposedHelpers.setStaticObjectField(Build.class, "BRAND", "google");
 
         // ro.product.device
-        XposedHelpers.setStaticObjectField(Build.class, "DEVICE", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "DEVICE", "blazer");
 
         // ro.product.system.device
         XposedHelpers.setStaticObjectField(Build.class, "SYSTEM.DEVICE", "generic");
@@ -52,55 +52,55 @@ public class MainHook implements IXposedHookLoadPackage {
         XposedHelpers.setStaticObjectField(Build.class, "TYPE", "user");
 
         // ro.product.product
-        XposedHelpers.setStaticObjectField(Build.class, "PRODUCT", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "PRODUCT", "blazer");
 
         // ro.product.name
-        XposedHelpers.setStaticObjectField(Build.class, "name", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "name", "blazer");
 
         // ro.product.system.name
-        XposedHelpers.setStaticObjectField(Build.class, "name", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "name", "blazer");
 
         // ro.product.vendor.name
-        XposedHelpers.setStaticObjectField(Build.class, "name", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "name", "blazer");
 
         // ro.product.system_ext.name
-        XposedHelpers.setStaticObjectField(Build.class, "name", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "name", "blazer");
 
         // ro.product.system.name
         XposedHelpers.setStaticObjectField(Build.class, "SYSTEM.NAME", "mainline");
 
         // ro.product.vendor.name
-        XposedHelpers.setStaticObjectField(Build.class, "VENDOR.NAME", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "VENDOR.NAME", "blazer");
 
         // ro.product.system_ext.name
-        XposedHelpers.setStaticObjectField(Build.class, "SYSTEM_EXT.NAME", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "SYSTEM_EXT.NAME", "blazer");
 
         // ro.system_ext.model
-        XposedHelpers.setStaticObjectField(Build.class, "SYSTEM_EXT.MODEL", "Pixel 8 Pro");
+        XposedHelpers.setStaticObjectField(Build.class, "SYSTEM_EXT.MODEL", "Pixel 10 Pro");
 
         // ro.product.model
-        XposedHelpers.setStaticObjectField(Build.class, "PRODUCT.MODEL", "Pixel 9 Pro");
+        XposedHelpers.setStaticObjectField(Build.class, "PRODUCT.MODEL", "Pixel 10 Pro");
 
         // ro.product.vendor.model
-        XposedHelpers.setStaticObjectField(Build.class, "VENDOR.MODEL", "Pixel 9 Pro");
+        XposedHelpers.setStaticObjectField(Build.class, "VENDOR.MODEL", "Pixel 10 Pro");
 
         // ro.product.system.model
         XposedHelpers.setStaticObjectField(Build.class, "SYSTEM.MODEL", "mainline");
 
         // ro.product.flavor
-        XposedHelpers.setStaticObjectField(Build.class, "FLAVOUR", "caiman-user");
+        XposedHelpers.setStaticObjectField(Build.class, "FLAVOUR", "blazer-user");
 
         // ro.soc.model
-        XposedHelpers.setStaticObjectField(Build.class, "SOC.MODEL", "Tensor G4");
+        XposedHelpers.setStaticObjectField(Build.class, "SOC.MODEL", "Tensor G5");
 
         // ro.product.board
-        XposedHelpers.setStaticObjectField(Build.class, "BOARD", "caiman");
+        XposedHelpers.setStaticObjectField(Build.class, "BOARD", "blazer");
 
         // ro.build.id
-        XposedHelpers.setStaticObjectField(Build.class, "ID", "BP31.250502.008");
+        XposedHelpers.setStaticObjectField(Build.class, "ID", "ZP11.250926.010");
 
         // ro.build.fingerprint
         XposedHelpers.setStaticObjectField(Build.class, "FINGERPRINT",
-                "google/caiman_beta/caiman:16/BP31.250502.008/13497110:user/release-keys");
+                "google/blazer_beta/blazer:CANARY/ZP11.250926.010/14282035:user/release-keys");
     }
 }
